@@ -15,7 +15,7 @@ html {
 body {
     font-family: 'Nunito', sans-serif;
     background:
-        linear-gradient(135deg, #F8E3BA 50%, rgb(248, 196, 92) 100%);
+        linear-gradient(135deg, #F8E3BA 5%, #F7C604 130%);
     background-attachment: fixed, fixed, fixed, fixed;
     background-repeat: no-repeat;
     background-size: cover;
