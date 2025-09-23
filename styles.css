@@ -12,6 +12,24 @@ html {
     -webkit-scroll-behavior: smooth;
 }
 
+/* Center the widget horizontally */
+.widget-center {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Remove this line if you don't want vertical centering */
+    margin: 2rem 0;
+}
+
+/* Optional: Set a max width for the widget */
+.voltichange-widget {
+    max-width: 100%;
+    min-width: 320px;
+    width: 420px;
+    height: 600px;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     background:
